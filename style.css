@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background: linear-gradient(90deg, #0000FF 0%, #6959CD 100% );
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+    margin-top: 180px;
+    width: 800px;
+    height: 180px;
+    margin-left: 400px;
+    border: none;
+    border-radius: 200px;
+    background-color: #808080;
+}
+
+#input-principal{
+    width: 300px;
+   height: 40px;
+   align-items: center;
+   text-align: center;
+   margin-top: 70px;
+   border: none;
+   border-radius: 20px;
+   background-color: #6959CD;
+  color:red;
+  outline: white ;
+   
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#butao-adicionar{
+    background-color: #6959CD;
+    border-radius: 50px;
+    border: none;
+    width: 120px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+::placeholder{
+    color: white;
+    
+}
+
+.linha1{
+background-color: rgba(255, 255, 255, 0);
+border-radius: 5px;
+padding: 25px 45px ;
+cursor: pointer;
+position: relative;
+margin-top: 15px;
+border: none;
+color: red;
+font-size: 20px;
+list-style: none;
+}
